@@ -40,8 +40,6 @@ function setup() {
 }
 
 function greet() {
-  fill(random(255),random(255),random(255))
-  text("abdullah_aruk",200,200)
   const s1 = sayi1.value();
   const s2 = sayi2.value();
   let ps = Math.pow(s1,s2);
@@ -69,6 +67,5 @@ function greet() {
     fill(random(255),random(255),random(255))
     counter++;
   }
-  ellipse(200,140,dist*0.13,dist*0.13)
 
 }
